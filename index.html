@@ -11,13 +11,31 @@
 </head>
 <body>
     
-    <img class="cow" src="./CSS/images/sacred-cow.png" alt="">
+    <header class="header">
+        <h1 class="main__title">La boîte à Jorge</h1>
+        <div class="switch__container">
+            <img class="theme__picture " id="theme_icon" src="./CSS/images/day-and-night_copy.png" >
+            <input class="checkbox" type="checkbox" id="dark_theme"> 
+        </div>
+              
+    </header>
 
-    <div class="container" onclick="playAudio('olavache.mp3')">
-        <button class="button"></button>
-        <div class="triangle"></div>
-        
-    </div>
+    <main> 
+    
+        <div class="container">
+            <img class="cow" src="./CSS/images/sacred-cow.png" alt="">
+
+            <div class="button__container" id="button">
+                <button class="button"></button>
+                <div class="triangle"></div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>- Al'meuhda Ltd -</p>
+    </footer>
 
     <script src="./index.js"></script>
 
